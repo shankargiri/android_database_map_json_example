@@ -1,0 +1,116 @@
+
+
+
+
+installing composer 
+curl -s https://getcomposer.org/installer | php -d detect_unicode=Off
+
+
+move composer to bin after this:
+
+sudo mv composer.phar /usr/local/bin/composer
+the above command is installation globally once you install in bin folder
+
+after this you need to download laravel using the following command:
+
+php -i | grep mcrypt   (to see if mcrypt is there in your system)
+
+
+
+composer create-project laravel/laravel myproject
+
+
+it will install fresh copy of laravel framework
+
+composer install
+
+ will download the dependencies
+it will download dependencies
+
+
+creating a controller:
+php artisan controller:make DogsController
+
+
+
+to export path via terminal:
+
+vi .bash_profile
+
+put the following in that path when you open via vim editor
+
+export PATH=/Applications/MAMP/bin/php/php5.4.10/bin:$PATH
+
+
+it should now direct the path to the mamp php
+
+
+if it is listening on php via terminal : type the following:
+php -S localhost:8888 public
+
+
+$ php artisan serve
+
+
+for creating a key fro app.php … do not delete default "Your secret key!!!" … instead go to terminal and type:
+php artisan key:generate
+
+it will generate and will assign the key in there
+
+
+to create the table in your database named"larval"
+php artisan migrate:install
+
+
+
+following command creates a migration under database-migration
+php artisan migrate:make create_authors_table
+
+
+
+to create one more migration :
+php artisan migrate:make add_authors
+
+
+
+the following command will create properties for the table using php and using the following command line in terminal:
+whern you make changes in up and down methods in migration created… for the purpose of manipulating tables or their fields … using the following commands… it will upgrade in phpMyAdmin
+php artisan migrate
+
+
+
+the following command rollbacks/deletes the last work in the table data entry migrate:
+i.e.
+it will rollback anything update by last used (this command:php artisan migrate)
+
+ php artisan migrate:rollback
+
+if you rollback with same command again.. it will delete the previous work.. like delete the table if the table was created.
+
+
+if we now do :php artisan migrate… it will bring back all those deleted data because of rollback
+
+
+completely migrate the database:
+php artisan migrate:reset
+
+again use php artisan migrate to bring everything back to normal
+
+
+
+creating controller from terminal:
+php artisan controller:make author_controller
+
+
+//getting generator for sublime under your working project direcoty
+composer require ways/generators
+it will ask you for the version control:
+2.0.* will download the latest 2.0 version
+
+
+//composer dump-autoload
+ when it refeclts an error while running larval
+
+
+
+ 

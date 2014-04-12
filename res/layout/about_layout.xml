@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/aboutpage"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:textAlignment="center"
+        android:textSize="10px"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="10px" 
+        android:paddingTop="5px"
+        android:paddingRight="5px"
+        android:paddingBottom="5px"
+        android:paddingLeft="5px"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/agree"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="arial"
+            android:text="@string/agree_button"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="monospace" 
+            android:layout_marginBottom="0dp"/>
+
+        <Button
+            android:id="@+id/decline"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="arial"
+            android:text="@string/decline"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#ff0000" />
+    </RelativeLayout>
+
+</LinearLayout>

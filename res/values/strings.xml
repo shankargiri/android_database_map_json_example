@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">immigration</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="offer_me">Offer Me</string>
+    <string name="share_facebook">Facebook Share</string>
+
+    <!-- menu options items -->
+    <string name="immigration">Immigration</string>
+    <string name="blog">Blog</string>
+    <string name="about">About</string>
+    <string name="save_data">Saved Data</string>
+    <string name="agree_button">Agree</string>
+    <string name="decline">Decline</string>
+    <string name="google_liscense">Google Play Liscense</string>
+
+    <!-- search layout -->
+    <string name="search_title">type your query</string>
+    <string name="all_data">All Data</string>
+    <string name="saved_data">Saved Data</string>
+    <string name="cheap_data">Cheap</string>
+    <string name="all">All</string>
+
+</resources>

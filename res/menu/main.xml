@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.immigration.MainActivity" >
+
+    <item
+        android:id="@+id/google_liscense"
+        android:orderInCategory="100"
+        android:title="@string/google_liscense"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/immigration"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/immigration"/>
+    <item
+        android:id="@+id/blog"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/blog"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/about"/>
+    <item
+        android:id="@+id/saved_data"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/save_data"/>
+    
+    <item android:id="@+id/search"
+          android:title="@string/search_title"
+          android:icon="@drawable/ic_search"
+          android:showAsAction="always"
+          android:actionViewClass="android.widget.SearchView" />
+
+</menu>
